@@ -1,0 +1,10 @@
+<VirtualHost *:8080>
+DocumentRoot "C:\xampp\htdocs\rtsp"
+ServerName 192.168.1.188:8080
+<Directory "C:\xampp\htdocs\rtsp">
+Options Indexes FollowSymLinks Includes ExecCGI
+AllowOverride All
+Order allow,deny
+Allow from all
+</Directory>
+</VirtualHost>
